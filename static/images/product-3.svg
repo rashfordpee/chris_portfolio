@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="p3bg" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#2a2a2a"/>
+      <stop offset=".55" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <radialGradient id="p3glow" cx=".68" cy=".32" r=".55">
+      <stop offset="0" stop-color="#ff4d00" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#ff4d00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#p3bg)"/>
+  <rect width="1000" height="1000" fill="url(#p3glow)"/>
+  <circle cx="500" cy="500" r="330" fill="none" stroke="#ffffff" stroke-opacity=".06" stroke-width="2"/>
+  <circle cx="500" cy="500" r="220" fill="none" stroke="#ff4d00" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M180 820 820 180" stroke="#ff4d00" stroke-opacity=".18" stroke-width="90"/>
+  <path d="M180 820 820 180" stroke="#ffffff" stroke-opacity=".05" stroke-width="2"/>
+</svg>
